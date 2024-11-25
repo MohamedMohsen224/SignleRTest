@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="../lib/microsoft/signalr/dist/browser/signalr.js"></script>
+     <script src="../Js/Chat.js"></script>
+</head>
+<body>
+    <div id="PublicTalk" class="Container">
+        <input type="text" id="messageInp" />
+        <input type="submit" id="sendmessagebtn" value="Send" />
+        <ul id="messagesList"></ul>
+    </div>
+     <br/>
+     <div id="groupConverstion" class="Container">
+         <div>
+             <input type="text" id="groupNameInp"/>
+             <input type="submit" id="JoinGroupbtn" value="Join"/>
+         </div>
+     </div>
+     <br/>
+     <div>
+         <input type="text" id="messagetoGroup" />
+         <input type="submit" id="sendmessageGroupbtn" value="Send" />
+         <ul id="messagesGroupList"></ul>
+     </div>
+<br/>
+</body>
+</html>
